@@ -55,3 +55,50 @@ h2{
     margin-top: 50px;
 }
 
+@media (max-width: 750px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: gray;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 30px;
+        background: linear-gradient(90deg, #e81313, #000);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .option{
+        margin-top: 50px;
+    }
+    .option button{
+        margin-left: 20px;
+        margin-top: 30px;
+        border: none;
+        background: linear-gradient(to right, #1a2a6c, #b21f1f);
+        border-radius: 50%;
+        transition: transform 300ms ease-out;
+    }
+    .option button img:hover{
+        transform: scale(1.2);
+        background: linear-gradient(to right,  #1a2a6c, #b21f1f);
+        transition: background 0.5s ease;
+    }
+    img{
+        height: 110px;
+        width: 110px;
+        padding: 10px;
+        background: linear-gradient(to right, #b21f1f, #1a2a6c); 
+        border-radius: 50%;
+    }
+}
