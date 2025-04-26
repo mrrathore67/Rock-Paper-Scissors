@@ -55,7 +55,7 @@ h2{
     margin-top: 50px;
 }
 
-@media (max-width: 750px){
+@media (max-width: 350px){
     *{
         box-sizing: border-box;
         margin: 0;
